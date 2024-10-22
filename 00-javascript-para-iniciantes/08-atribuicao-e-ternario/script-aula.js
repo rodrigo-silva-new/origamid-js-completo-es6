@@ -35,3 +35,9 @@ if (possuiFaculdade)
   console.log('Sim possui');
 else
   console.log('Não possui');
+
+
+
+var possuiCarro = false;
+if (possuiCarro) console.log('Sim, a pessoa possui carro');
+else console.log('Não, a pesssoa não possui carro');
