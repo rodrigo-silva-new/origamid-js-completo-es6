@@ -2,15 +2,6 @@
 // Deve conter nome, sobrenome e idade
 // Crie um método no protótipo que retorne
 // o nome completo da pessoa
-function Pessoas(nome, sobrenome, idade) {
-  this.nome = nome;
-  this.sobrenome = sobrenome;
-  this.idade = idade;
-}
-
-Pessoas.prototype.nomeCompleto = function () {
-  return `${nome} ${this.sobrenome}`;
-};
 
 // Liste os métodos acessados por
 // dados criados com NodeList,
