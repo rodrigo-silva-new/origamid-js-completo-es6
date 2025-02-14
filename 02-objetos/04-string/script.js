@@ -63,7 +63,7 @@ console.log(arrayLista);
 
 const htmlText = "<div>O melhor item </div><div>A melhor lista</div>";
 const htmlArray = htmlText.split("div");
-const novoHtml = htmlArray.join("ssection");
+const novoHtml = htmlArray.join("section");
 
 console.log(htmlText);
 console.log(htmlArray);
