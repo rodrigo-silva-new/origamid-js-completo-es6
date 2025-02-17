@@ -56,15 +56,45 @@
 // console.log(instrumentos2);
 // console.log(idades);
 
-// OUTROS METODOS
-const carros = ["Ford", "Fiat", "VW"];
-carros.unshift("Kia", "Ferrari");
-carros.push("Parati", "Gol");
+// BLOCO
+// const carros = ["Ford", "Fiat", "VW"];
+// carros.unshift("Kia", "Ferrari");
+// carros.push("Parati", "Gol");
 
-console.log(carros);
+// console.log(carros);
 
-console.log(carros.pop());
-console.log(carros.shift());
-console.log(carros);
+// console.log(carros.pop());
+// console.log(carros.shift());
+// console.log(carros);
 
-console.log(carros.reverse());
+// console.log(carros.reverse());
+
+// BLOCO
+// const carros = ["Ford", "Fiat", "VW"];
+// console.log(carros);
+// console.log(carros.splice(2, 0, "Fusca"));
+
+// console.log(carros);
+
+// BLOCO
+// console.log(["Item1", "Item2", "Item3", "Item4", "Item5"].copyWithin(2, 0, 2));
+
+// BLOCO
+// console.log(["Item1", "Item2", "Item3", "Item4"].fill("Banana", 0, 2));
+
+// BLOCO
+// const transporte1 = ["Barco", "Aviao"];
+// const transporte2 = ["Carro", "Moto"];
+// const concatenando = [].concat(transporte1, transporte2);
+// console.log(concatenando);
+
+// BLOCO
+const linguagens = ["html", "css", "js", "php", "python", "js"];
+
+linguagens.includes("css"); // true
+linguagens.includes("ruby"); // false
+linguagens.indexOf("python"); // 4
+linguagens.indexOf("js"); // 2
+linguagens.lastIndexOf("js"); // 5
+
+console.log(linguagens.join(" "));
