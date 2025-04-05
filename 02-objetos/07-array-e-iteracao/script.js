@@ -249,28 +249,28 @@
 // .some() = Se pelo menos um return da iteração for truthy, ele retorna true;
 // .evvery() = se todos os returns das iterações forem truthy, o método irá retornar true. Se pelo menos um for falsy, ele irá retornar false;
 
-const frutas = ['Banana', 'Pêra', 'Uva'];
+// const frutas = ['Banana', 'Pêra', 'Uva'];
 
-const temUva = frutas.some((item) => {
-  return item === 'Uva';
-})
+// const temUva = frutas.some((item) => {
+//   return item === 'Uva';
+// })
 
-const every = frutas.every((item) => {
-  return item === 'Uva';
-})
+// const every = frutas.every((item) => {
+//   return item === 'Uva';
+// })
 
-// console.log(temUva);
-console.log(every);
-
-
+// // console.log(temUva);
+// console.log(every);
 
 
 
-const numeros = [6, 43, 22, 88, 101, 29];
 
-const maiorQue3 = numeros.every(n => n > 3);
 
-console.log(maiorQue3);
+// const numeros = [6, 43, 22, 88, 101, 29];
+
+// const maiorQue3 = numeros.every(n => n > 3);
+
+// console.log(maiorQue3);
 
 
 
@@ -288,6 +288,69 @@ console.log(maiorQue3);
 
 
 /* ==================================================
-
+.find() e .findIndex()
 ================================================== */
+// .find() retorna o vavlor atual da primeira iteração que retornar um valor truthy;
+// .findIndex() retorna o index desse valor na array;
 
+// const frutas = ['Banana', 'Maçã', 'Pêra', 'Uvas'];
+
+// const indexUva = frutas.findIndex(item => {
+//   return item === 'Uvas';
+// })
+
+// console.log('Index: ', indexUva);
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==================================================
+.filter()
+================================================== */
+// retorna um array com a lista de vavlores que durante sua iteração retornaram um valor truthy;
+
+// const frutas1 = ['Banana', undefined, null, '', 'Uva', 0, 'Maçã'];
+
+// const arrayFrutas = frutas1.filter((item) => {
+//   console.log(item);
+//   return item;
+// })
+
+// console.log(arrayFrutas);
+
+
+
+
+
+const aulas = [
+  {
+    nome: 'HTML 1',
+    min: 15
+  },
+  {
+    nome: 'HTML 2',
+    min: 10
+  },
+  {
+    nome: 'CSS 1',
+    min: 20
+  },
+  {
+    nome: 'JS 1',
+    min: 25
+  },
+]
+
+const maiores15 = aulas.filter((aula) => {
+  return aula.min > 15;
+})
+
+console.log(maiores15);
